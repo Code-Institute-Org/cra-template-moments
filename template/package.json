@@ -1,8 +1,7 @@
 {
   "name": "moments",
   "version": "0.1.0",
-  "description": "Basic template for Moments",
-  "main": "template.json",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -18,9 +17,6 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "devDependencies": {
-    "msw": "^0.35.0"
-  },
   "scripts": {
     "heroku-prebuild": "npm install -g serve",
     "start": "react-scripts start",
@@ -28,10 +24,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "files": [
-    "template",
-    "template.json"
-  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -50,5 +42,11 @@
       "last 1 safari version"
     ]
   },
-  "license": "MIT"
+  "devDependencies": {
+    "msw": "^0.35.0"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
 }

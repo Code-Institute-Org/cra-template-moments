@@ -1,7 +1,7 @@
 {
   "name": "cra-template-moments",
   "version": "0.1.0",
-  "description": "Basic template for Moments",
+  "description": "React template for Moments",
   "main": "template.json",
   "scripts": {
     "start": "react-scripts start",
@@ -30,6 +30,5 @@
   "files": [
     "template",
     "template.json"
-  ],
-  "license": "MIT"
+  ]
 }
